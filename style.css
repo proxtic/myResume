@@ -5,18 +5,16 @@
 }
 
 .myCarousel{
-    height: 70vh;
+    height: 82vh;
 }
 
 .myCarouselMain{
     box-shadow: 0 8px 10px rgba(0, 0, 0, .6);
 }
 
-.section2{
-    background-color: #e8e8e8;
-    width: 100%;
-    height: 12vh;
-    border-top: 1px solid #222222;
+.pdfViewer{
+    width:100%;
+    height: 81vh;
 }
 
 footer{
@@ -33,5 +31,15 @@ footer{
 .footer-social{
     padding-top: 10px;
 }
+
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-copyright{
+    font-size: x-small;
+  }
 
 
