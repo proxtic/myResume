@@ -1,107 +1,152 @@
-.navbar{
-    /* border-bottom: 1px #e8e8e8 solid;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
-    height: 8vh;
-    z-index: 10;
+/* navbar styling */
+.navbar {
+  height: 8vh;
+  z-index: 10;
 }
 
-*:disabled {
-    pointer-events: auto !important;
-    opacity: 1 !important;
-    cursor: auto !important;
-  }
-
-  .collapse.show{
-    background-color: #fff;
-    border-radius: 0px 0px 10px 10px;
-    border-left: #000 solid 1px;
-    border-right: #000 solid 1px;
-    border-bottom: #000 solid 1px;
-    margin-top: 10px;
-  }
-
-  .collapse.show li{
-    border-bottom: 1px solid black;
-    padding-left: 10px;
-  }
-
-  .collapse.show li:hover{
-    background-color: #ccc;
-    border-bottom: 2px solid black;
-    font-weight: bold;
-  }
-
-.myCarousel{
-    height: 82vh;
+.nav-link.active {
+  font-weight: 600;
 }
 
-.myCarouselMain{
-    box-shadow: 0 8px 10px rgba(0, 0, 0, .6);
+/* fixing transparent navbar dropdown */
+.collapse.show {
+  background-color: #fff;
+  border-radius: 0px 0px 10px 10px;
+  border-left: #000 solid 1px;
+  border-right: #000 solid 1px;
+  border-bottom: #000 solid 1px;
+  margin-top: 10px;
 }
 
-.pdfViewer{
-    width:100%;
-    height: 81vh;
+.collapse.show li {
+  border-bottom: 1px solid black;
+  padding-left: 10px;
 }
 
-footer{
-    height: 10vh;
-    width: 100%;
-    background-color: #e8e8e8;
-    text-align: center;
-    border-top: 1px solid #cccccc;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+.collapse.show li:hover {
+  background-color: #ccc;
+  border-bottom: 2px solid black;
+  font-weight: bold;
 }
+
+/* carousel styling */
+.myCarousel {
+  height: 82vh;
+}
+
+.myCarouselMain {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, .6);
+}
+
+/* pdf section styling */
+.pdfViewer {
+  width: 100%;
+  height: 81vh;
+}
+
+/* footer styling */
+footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #e8e8e8;
+  text-align: center;
+  border-top: 1px solid #cccccc;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
 .footer-social a {
-    color: #000000; /* Set the color to black */
-}
-.footer-social{
-    padding-top: 10px;
+  color: #000000;
+  /* Set the color to black */
 }
 
+.footer-social {
+  padding-top: 10px;
+}
 
 .row-container {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
+}
 
-  .footer-copyright{
-    font-size: x-small;
-  }
+.footer-copyright {
+  font-size: x-small;
+}
 
+/* about section styling */
+.aboutSection {
+  background-color: #ededed;
+  height: 82vh;
+  width: 100%;
+}
 
-  .aboutSection{
-    background-color: #ededed;
-    height: 82vh;
-    width: 100%;
-  }
+.aboutSection img {
+  background-color: #ededed;
+  height: 60vh;
+  width: auto;
+  border: 2px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
 
-  .aboutSection img{
-    background-color: #ededed;
-    height: 60vh;
-    width: auto;
-    border: 2px solid #000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-  }
+.profileSection {
+  padding-top: 10vh;
+  padding-left: 8vh;
+}
 
-  .profileSection{
-    padding-top: 10vh;
-    padding-left: 8vh;
-  }
+.descriptionSection {
+  padding-top: 10vh;
+  padding-right: 15vh;
+}
 
-  .descriptionSection{
-    padding-top: 10vh;
-    padding-right: 15vh;
-  }
+.descriptionSection p {
+  font-size: 14px;
+}
 
-  .descriptionSection p{
-    font-size: 14px;
-  }
+.descriptionSection a {
+  color: #000000;
+  font-size: 40px;
+  padding: 5px;
+}
 
-  .descriptionSection a{
-    color: #000000;
-    font-size: 40px;
-    padding: 5px;
-  }
+/* project page styling */
+.mainProject {
+  background-color: #ededed;
+  min-height: 82vh;
+  padding: 50px;
+  box-sizing: border-box;
+}
 
+.projectSection {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
 
+.projectSection img {
+  width: 500px;
+  border: 2px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  flex: 0 0 auto;
+  margin-right: 20px;
+
+}
+
+.content {
+  flex: 1 1 auto;
+  padding-left: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.myTabContent{
+  padding-top: 20px;
+  padding-left: 20px;
+}

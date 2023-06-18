@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="../images/miya3.jpg">
-  <title>Projects | Grace Gundrum</title>
-  <!-- CSS file link -->
-  <link rel="stylesheet" href="../style.css">
-  
-  <!-- Bootstrap CSS file link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-   <!-- Include the FontAwesome CSS file -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="../images/miya3.jpg">
+    <title>Projects | Grace Gundrum</title>
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Bootstrap CSS file link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Include the FontAwesome CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container px-4">
             <a class="navbar-brand" href="index.html"><b>Grace</b> Gundrum</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -39,24 +43,121 @@
             </div>
         </div>
     </nav>
-  <footer>
-    <div class="footer-social">
-        <a href="https://www.facebook.com/grace.gundrum.1/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://github.com/proxtic?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.instagram.com/gracegundrum/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/grace-gundrum/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <div class="footer-copyright">
-        &copy; 2023 Grace Gundrum. All rights reserved.
-    </div>
-  </footer>
 
-  <!-- JavaScript file link -->
-  <script src="../script.js"></script>
-  <!-- Bootstrap JavaScript file link -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-  <!-- Include the FontAwesome JS file -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <section class="mainProject">
+        <nav>
+            <div class="nav nav-tabs myTabsStyles" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-personal"
+                    type="button" role="tab" aria-controls="nav-personal" aria-selected="true">Personal Project</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-school"
+                    type="button" role="tab" aria-controls="nav-school" aria-selected="false">School Projects</button>
+            </div>
+        </nav>
+        <div class="tab-content myTabContent" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-personal" role="tabpanel" aria-labelledby="nav-personal-tab"
+                tabindex="0">
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/project1.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>College Performance Dashboard</h2>
+                        <p>I developed a Power BI dashboard that showcased essential college data such as grades, GPA,
+                            class enrollment dates, and professor ratings. The dashboard consisted of distinct pages
+                            dedicated to different aspects of my academic journey. The first page presented my grades
+                            and GPA at Lehigh University, providing an overview of my academic performance. The second
+                            page focused on NCC grade data, displaying a breakdown of my courses and corresponding
+                            grades at Northampton Community College. The third page provided ratings and feedback for
+                            Lehigh professors, offering insights into their teaching quality. Lastly, the fourth page
+                            featured NCC professor data, providing a similar rating system. By organizing the data into
+                            separate pages, the Power BI dashboard offered an organized and intuitive way to explore my
+                            academic achievements and evaluate professors.</p>
+                        <a href="https://app.powerbi.com/groups/me/reports/64f88583-6bdd-4e2b-a057-b7fb3185fa20/ReportSection?experience=power-bi"
+                            target="_blank"><button type="button" class="btn btn-outline-primary">Link</button></a>
+
+                    </div>
+                </div>
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/project2.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>Test Time Calculator</h2>
+                        <p>I developed a test time calculator for my work, specifically for testing semiconductor wafers.
+                            The calculator is a web application created using HTML, CSS, and JavaScript, and it is
+                            hosted through GitHub Pages. It allows me to input the necessary information to calculate
+                            the total time required for testing a wafer. Additionally, I can enter the calculated total
+                            wafer time to determine the end time of the testing process. This simple yet effective tool
+                            enhances efficiency and helps streamline the testing process in my work environment.</p>
+                        <a href="https://proxtic.github.io/calculatorApp/project/" target="_blank"><button type="button"
+                                class="btn btn-outline-primary">Link</button></a>
+                    </div>
+                </div>
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/timesheetSpreadsheet.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>Time Sheet Auto Sender</h2>
+                        <p>I implemented an automated solution using Google Sheets and Google Apps Script to streamline my time sheet submission process. Through this system, every Friday night, the hours on the time sheet are automatically updated. The script then generates a formatted email that is sent to the individuals listed in another sheet. The email is personalized for each recipient, addressing them by name, and includes a mention of the week for which the time sheet has been updated. Additionally, the email attaches the updated time sheet for their reference. This automated workflow has significantly simplified and expedited the process of submitting my time sheet, ensuring timely and accurate communication with the payroll employees.</p>
+                    </div>
+                </div>
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/project3.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>Watched Anime Dashboard</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor turpis in tristique
+                            dapibus.</p>
+                        <a href="https://public.tableau.com/app/profile/grace.gundrum/viz/Book1_16855669526040/Dashboard1" target="_blank"><button type="button"
+                            class="btn btn-outline-primary">Link</button></a>
+                    </div>
+                </div>
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/budgetSpreadshirt.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>Budget Spreadsheet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor turpis in tristique
+                            dapibus.</p>
+                    </div>
+                </div>
+                <div class="projectSection">
+                    <div class="image">
+                        <img src="../images/project/gradingSpreadsheet.png" alt="Image">
+                    </div>
+                    <div class="content">
+                        <h2>Assignment TODO Spreadsheet / Grade Calculator</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce auctor turpis in tristique
+                            dapibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-school" role="tabpanel" aria-labelledby="nav-school-tab" tabindex="0">...
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/grace.gundrum.1/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/proxtic?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/gracegundrum/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/grace-gundrum/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2023 Grace Gundrum. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- JavaScript file link -->
+    <script src="../script.js"></script>
+    <!-- Bootstrap JavaScript file link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Include the FontAwesome JS file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 
 </body>
+
 </html>
