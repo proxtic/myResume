@@ -38,6 +38,12 @@
   box-shadow: 0 8px 10px rgba(0, 0, 0, .6);
 }
 
+.myCarousel img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
 /* pdf section styling */
 .pdfViewer {
   width: 100%;
@@ -90,11 +96,12 @@ footer {
 .profileSection {
   padding-top: 10vh;
   padding-left: 8vh;
+  padding: 10vh;
 }
 
 .descriptionSection {
   padding-top: 10vh;
-  padding-right: 15vh;
+  padding-right: 10vh;
 }
 
 .descriptionSection p {
@@ -105,6 +112,88 @@ footer {
   color: #000000;
   font-size: 40px;
   padding: 5px;
+}
+
+@media (max-width: 1550px) {
+  .profileSection {
+    flex: none !important;
+  }
+
+  .descriptionSection {
+    flex: none !important;
+  }
+
+  .row-container{
+    display: block;
+  }
+  .aboutSection {
+    background-color: #ededed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .profileSection {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+
+  .aboutSection img {
+    width: auto;
+    height: 30vh;
+  }
+
+  .descriptionSection {
+    padding-top: 0vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .profileSection {
+    flex: none !important;
+  }
+
+  .descriptionSection {
+    flex: none !important;
+  }
+
+  .row-container{
+    display: block;
+  }
+  .aboutSection {
+    background-color: #ededed;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding-top: 0;
+  }
+
+  .profileSection {
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+  }
+
+  .aboutSection img {
+    width: auto;
+    height: 30vh;
+  }
+
+  .descriptionSection {
+    padding-top: 0vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 30px;
+  }
 }
 
 /* project page styling */
