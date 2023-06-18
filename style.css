@@ -1,8 +1,35 @@
 .navbar{
-    border-bottom: 1px #e8e8e8 solid;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    /* border-bottom: 1px #e8e8e8 solid;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
     height: 8vh;
+    z-index: 10;
 }
+
+*:disabled {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+    cursor: auto !important;
+  }
+
+  .collapse.show{
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    border-left: #000 solid 1px;
+    border-right: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    margin-top: 10px;
+  }
+
+  .collapse.show li{
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+  }
+
+  .collapse.show li:hover{
+    background-color: #ccc;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+  }
 
 .myCarousel{
     height: 82vh;
@@ -40,6 +67,41 @@ footer{
 
   .footer-copyright{
     font-size: x-small;
+  }
+
+
+  .aboutSection{
+    background-color: #ededed;
+    height: 82vh;
+    width: 100%;
+  }
+
+  .aboutSection img{
+    background-color: #ededed;
+    height: 60vh;
+    width: auto;
+    border: 2px solid #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  }
+
+  .profileSection{
+    padding-top: 10vh;
+    padding-left: 8vh;
+  }
+
+  .descriptionSection{
+    padding-top: 10vh;
+    padding-right: 15vh;
+  }
+
+  .descriptionSection p{
+    font-size: 14px;
+  }
+
+  .descriptionSection a{
+    color: #000000;
+    font-size: 40px;
+    padding: 5px;
   }
 
 
